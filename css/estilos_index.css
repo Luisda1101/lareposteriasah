@@ -3,12 +3,22 @@ body{
     background: #7F7FD5;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #7F7FD5, #86A8E7, #91EAE4);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #7F7FD5, #86A8E7, #91EAE4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#navstyle{
+    text-align: right;
+    font-family: 'Skranji', cursive;
+}
 
+#tituloindex{
+    color: blue;
+    font-family: 'Skranji', cursive;
 }
 
 #imagen{
-    background-image: url("/img/whatsapp_icon.png");
-    top: 10rem;
-    left: 10rem;
+    width: 5rem;
+    height: 5rem;
+    bottom: 1rem;
+    right: 1rem;
+    background-size: cover;
     position: fixed;
 }
