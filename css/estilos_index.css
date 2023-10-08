@@ -4,6 +4,15 @@ background: -webkit-linear-gradient(to top, #7F7FD5, #86A8E7, #91EAE4);
 background: linear-gradient(to top, #7F7FD5, #86A8E7, #91EAE4);
 }
 
+#whatsapp{
+    width: 3rem;
+    height: 3rem;
+    bottom: 0.7rem;
+    right: 0.7rem;
+    background-size: auto;
+    position: fixed;
+}
+
 header{
     text-align: center;
     color: blue;
@@ -21,15 +30,6 @@ nav{
 
 #imglogo{
     width: 25%;
-}
-
-#whatsapp{
-    width: 3rem;
-    height: 3rem;
-    bottom: 1rem;
-    right: 1rem;
-    background-size: cover;
-    position: fixed;
 }
 
 .pubsinsta iframe{
