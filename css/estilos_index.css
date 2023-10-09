@@ -26,12 +26,18 @@ nav{
     font-family: 'Skranji', cursive;
     position: relative;
     z-index: 2;
+    display: inline-block;
 }
 
-#ul_nav{
+nav ul{
     list-style: none;
-    display:flex;
-    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
 }
 
 #imglogo{
