@@ -28,6 +28,12 @@ nav{
     z-index: 2;
 }
 
+#ul_nav{
+    list-style: none;
+    display:flex;
+    position: relative;
+}
+
 #imglogo{
     width: 25%;
 }
