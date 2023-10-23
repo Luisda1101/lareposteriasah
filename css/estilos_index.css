@@ -4,6 +4,9 @@ background: -webkit-linear-gradient(to top, #7F7FD5, #86A8E7, #91EAE4);
 background: linear-gradient(to top, #7F7FD5, #86A8E7, #91EAE4);
 }
 
+
+/* --->Boton whatsapp estilos*/
+
 #whatsapp{
     width: 3rem;
     height: 3rem;
@@ -13,21 +16,39 @@ background: linear-gradient(to top, #7F7FD5, #86A8E7, #91EAE4);
     position: fixed;
 }
 
+/* --->Header estilos*/
 header{
     text-align: center;
-    color: blue;
+    color: #1A38F5;
     font-family: 'Skranji', cursive;
     position: relative;
     z-index: 1;
     
 }
 
-nav{
+/* --->Nav estilos*/
+.row.nav{
+    background-color: white;
     text-align: right;
+}
+
+nav{
+    text-align: center;
     font-family: 'Skranji', cursive;
     position: relative;
-    z-index: 2;
     display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #1A38F5;
+}
+
+nav ul li a:hover{
+    color: #586EFB;
 }
 
 nav ul{
@@ -39,16 +60,29 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 10px;
+    position: relative;
 }
 
+nav ul li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+/* --->Imagen logo, estilos*/
 #imglogo{
     width: 25%;
 }
 
+/* --->Publicaciones de instagram estilos*/
 .pubsinsta iframe{
     border-radius: 1rem;
     width: 320px; 
     height: 640px;
     margin-left: 3.3rem;
 }
-
