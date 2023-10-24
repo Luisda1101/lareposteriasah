@@ -14,49 +14,63 @@
 <a href="https://api.whatsapp.com/send?phone=573016179642" target="_blank"><img src="img/whatsapp_icon.png" id="whatsapp"></a>
 
     <div class="row nav">
-        <div class="col-12">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#">Productos</a>
-                        <ul>
-                            <li><a href="tortas.html">Tortas</a></li>
-                            <li><a href="cupcakes.html">Cupcakes</a></li>
-                            <li><a href="paletas.html">Paletas</a></li>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="margin-left: 2rem;">
+              <a class="navbar-brand" href="#index">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" >
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="tortas.html">Tortas</a></li>
+                          <li><a class="dropdown-item" href="cupcakes.html">Cupcakes</a></li>
+                          <li><a class="dropdown-item" href="paletas.html">Paletas</a></li>
                         </ul>
-                    </li>
-                    <li><a href="vende_nuestros_productos.html">Vende nuestros productos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="vende_nuestros_productos.html">Distribuye</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
                 </ul>
-            </nav>
-        </div>
+              </div>
+            </div>
+        </nav>
     </div>
 
-    <header>
-        <h1 class="encabezado"><p>LA REPOSTERÍA SAHAGÚN</p></h1>
-        <div>
-            <img src="img/logo.png" id="imglogo">
-        </div>
-    </header>
-    
+    <div class="row">
+        <header>
+            <div>
+                <img src="img/logo.png" id="imglogo">
+            </div>
+        </header>
+    </div>
+
     <article>
     <section>
-        <h3>
-            Sobre Nosotros
+        <h3 style="margin: 25px 25px">
+            Sobre nosotros
         </h3>
-        <p>En la repostería Sahagún, creamos y diseñamos una amplia gama de productos que van a deleitar
-           tu paladar en los momentos más especiales de tu vida, desde tortas de cualquier tamaño con la
-           decoración que prefieras hasta paletas decorativas en eventos especiales como cumpleaños, bodas,
-           bautizos y todos los eventos que te imagines.
-        </p>
+        <p class="text-start" style="margin: 25px 25px ;">
+            En la repostería Sahagún, creamos y diseñamos una amplia gama de productos que van a deleitar
+            tu paladar en los momentos más especiales de tu vida, desde tortas de cualquier tamaño con la
+            decoración que prefieras hasta paletas decorativas en eventos especiales como cumpleaños, bodas,
+            bautizos y todos los eventos que te imagines.</p>
     </section>
-        <br>
-    <section class="pubsinsta">
-        <h3>Varios diseños</h3>
-        <hr>
-        <iframe src="https://www.instagram.com/p/CkYciA8L8Rb/embed/" ></iframe>
-        <iframe src="https://www.instagram.com/p/Cr0yVPhLL0e/embed/" ></iframe>
-        <iframe src="https://www.instagram.com/p/CoU9JjsrvVN/embed/" ></iframe>
+    <section>
+        <div class="row">
+            <div class="col-4">
+                <div class="ratio ratio-1x1">
+                    <iframe src="https://www.instagram.com/p/CkYciA8L8Rb/embed/" frameborder="0" class="embed-responsive-item"></iframe>
+                </div>
+            </div>
+        </div>
     </section>
     </article>
         <hr>
