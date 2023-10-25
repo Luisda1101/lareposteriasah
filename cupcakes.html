@@ -5,51 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cupcakes</title>
     <link rel="stylesheet" href="css/estilos_cupcakes.css">
+    <link rel="icon" href="img/logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
+   <div class="container-fluid">
     <a href="https://api.whatsapp.com/send?phone=573016179642" target="_blank"><img src="img/whatsapp_icon.png" id="whatsapp"></a>
-    <header>
-        <nav id="navstyle">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="tortas.html">Tortas</a></li>
-                <li><a href="cupcakes.html">Cupcakes</a></li>
-                <li><a href="paletas.html">Paletas</a></li>
-                <li><a href="vende_nuestros_productos.html">Conviertete en distribuidor</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <h1 id="titulocupcakes">CUPCAKES</h1>
-    </header>
-    <article>
-        <p id="parrafo">Los cupcakes nunca pueden faltar en un evento especial, elige el diseño que prefieras, ya sea 
+
+    <div class="row">
+    <div class="col-md-12">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tortas.html">Tortas</a></li>
+                <li><a class="dropdown-item" href="cupcakes.html">Cupcakes</a></li>
+                <li><a class="dropdown-item" href="paletas.html">Paletas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="vende_nuestros_productos.html">Distribuye</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/logo.png" alt="Bootstrap" width="50" height="50">
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </div>
+    </div>
+  <div class="row">
+    <div class="col-12 mt-4">
+        <p class="fs-1 text-center">CUPCAKES</p>
+        <P>Los cupcakes nunca pueden faltar en un evento especial, elige el diseño que prefieras, ya sea 
             solo en crema, con aditivos o fondant. Hay mucha variedad en decoraciones, o si por el contrario necesitas 
-            una decoracion personalizada contactanos.
-        </p>
-        <section>
-                 <div>
-                     <img src="img/cupcakes_1.png" class="imgs_cupcakes" width="260" height="340">
-                     <p>$00000</p>
-                 </div>
-                 <div>
-                     <img src="img/cupcakes_2.png" class="imgs_cupcakes" width="260" height="340">
-                     <p>$00000</p>
-                 </div>
-                 <div>
-                     <img src="img/cupcakes_3.png" class="imgs_cupcakes" width="260" height="340">
-                     <p>$00000</p>
-                 </div>
-                 <div>
-                     <img src="img/cupcakes_4.png" class="imgs_cupcakes" width="260" height="340">
-                     <p>$00000</p>
-                 </div>
-        </section>
-    </article>
-    <hr>
-    <footer>
-        <h4>La Repostería Sahagún</h4>
-        <p><b>Teléfono: </b>3016179642</p>
-        <p><b>Ubicación: </b>Transversal 3A, Barrio Nueva Granada, Sahagún, Córdoba, Colombia</p>
-    </footer>
+            una decoracion personalizada contactanos.</P>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="card mb-4 mt-4">
+        <div class="card-header text-center">
+          La repostería Sahagún
+        </div>
+        <div class="row card-body">
+          <div class="col-6 text-center">
+          <blockquote class="blockquote mb-0">
+            <p class="mb-0"><b>Ubicación: </b>Sahagún, Córdoba, Colombia</p>
+            <p>Barrio Nueva Granada</p>
+            <footer class="blockquote-footer">Transversal <cite title="Source Title">3A</cite></footer>
+          </blockquote>
+        </div>
+        <div class="col-6 text-center">
+          <p class="mb-0"><b>Contáctanos: </b></p>
+            <p class="mb-0"><u>Email</u>:<a href="mailto:luisdavidverso11@gmail.com" style="text-decoration: none;"> Haz click aquí</a></p>
+            <p><i class="bi bi-whatsapp"></i> Whatsapp: <i class="bi bi-arrow-down-right-circle"></i></p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   </div>
 </body>
 </html>
