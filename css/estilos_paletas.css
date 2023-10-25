@@ -7,12 +7,13 @@
     position: fixed;
 }
 
-#titulo{
-    text-align: center;
-    font-family: 'Skranji', cursive;
-}
-
-#navstyle{
-    text-align: right;
-    font-family: 'Skranji', cursive;
+.imgstortas{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 340px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 3px #CDCBCC;
 }
