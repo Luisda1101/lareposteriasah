@@ -7,3 +7,20 @@
     position: fixed;
     z-index: 999;
 }
+
+.fs-1.text-center{
+    padding: 3rem;
+}
+
+#map {
+    height: 400px; /* Establece la altura del mapa */
+    max-width: 800px; /* Establece el ancho máximo del mapa */
+    margin: 0 auto; /* Centra el mapa horizontalmente */
+}
+
+/* Estilos adicionales para mejorar la apariencia del mapa */
+.leaflet-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
