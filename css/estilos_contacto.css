@@ -13,12 +13,11 @@
 }
 
 #map {
-    height: 400px; /* Establece la altura del mapa */
-    max-width: 800px; /* Establece el ancho máximo del mapa */
-    margin: 0 auto; /* Centra el mapa horizontalmente */
+    height: 400px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-/* Estilos adicionales para mejorar la apariencia del mapa */
 .leaflet-container {
     border: 1px solid #ccc;
     border-radius: 8px;
