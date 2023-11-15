@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!--<script src="js/geolocalization.js"></script>-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 </head>
 <body>
    <div class="container-fluid">
@@ -53,46 +56,77 @@
     </div>
     <div class="row">
         <div class="col-12 mt-4">
-            <p class="fs-1 text-center">CONTACTO</p>
+            <p class="fs-1 text-center">CONTÁCTANOS</p>
         </div>
       </div>
 
-      <div class="row mt-4">
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img src="https://png.pngtree.com/png-vector/20220511/ourmid/pngtree-location-arrow-background-bubble-business-png-image_4585793.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Encuentranos</h5>
-                  <p class="card-text">Transversal 3A <br>
-                Barrio Nueva Granada <br>
-            Sahagún, Cordoba</p>
-                </div>
-              </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="card" style="width: 18rem; margin-left: 11rem;">
+            <img src="https://ecuador-realty.com/es/imagenes/logos/email.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Contactanos</h5>
+              <p class="card-text"><a href="mailto:luisdavidverso11@gmail.com">luisdavidverso11@gmail.com</a><br>
+                <a href="mailto:lareposteriasah@gmail.com">lareposteriasah@gmail.com</a> <br>
+                 Tel: 3024678232</p>
+            </div>
+          </div>
         </div>
-
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img src="https://ecuador-realty.com/es/imagenes/logos/email.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Contactanos</h5>
-                  <p class="card-text"><a href="mailto:luisdavidverso11@gmail.com">luisdavidverso11@gmail.com</a><br>
-                    <a href="mailto:lareposteriasah@gmail.com">lareposteriasah@gmail.com</a> <br>
-                     Tel: 3024678232</p>
-                </div>
-              </div>
-        </div>
-
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img src="https://eps-empssapal.com/documentos/img/horario.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">De lunes a Viernes</h5>
-                  <p class="card-text">8am - 12m<br>
-                    2pm - 5pm</p>
-                </div>
-              </div>
+        <div class="col-6">
+          <div class="card" style="width: 18rem; margin-left: 8rem;">
+            <img src="https://eps-empssapal.com/documentos/img/horario.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">De lunes a Viernes</h5>
+              <p class="card-text">8am - 12m<br>
+                2pm - 5pm</p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-12 mt-4">
+            <p class="fs-1 text-center">ENCUÉNTRANOS</p>
+        </div>
+      </div>
+
+      <div class="row mt-4 mb-4">
+        <div class="col-12" id="map">
+          
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="card mb-4 mt-4">
+            <div class="card-header text-center">
+              La repostería Sahagún
+            </div>
+            <div class="row card-body">
+              <div class="col-6 text-center">
+              <blockquote class="blockquote mb-0">
+                <p class="mb-0"><b>Ubicación: </b>Sahagún, Córdoba, Colombia</p>
+                <p>Barrio Nueva Granada</p>
+                <footer class="blockquote-footer">Transversal <cite title="Source Title">3A</cite></footer>
+              </blockquote>
+            </div>
+            <div class="col-6 text-center">
+              <p class="mb-0"><b>Contáctanos: </b></p>
+                <p class="mb-0"><u>Email</u>:<a href="mailto:luisdavidverso11@gmail.com" style="text-decoration: none;"> Haz click aquí</a></p>
+                <p><i class="bi bi-whatsapp"></i> Whatsapp: <i class="bi bi-arrow-down-right-circle"></i></p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+      <script>
+        const map = L.map('map').setView([8.95141, -75.45095], 15)
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        L.marker([8.95141, -75.45095]).addTo(map).bindPopup('<b>Repostería Sahagún</b>').openPopup();
+      </script>
    </div>
 </body>
 </html>
