@@ -26,6 +26,11 @@ nav{
     align-items: center;
 }
 
+.row.img{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 0;
+}
 
 
 /* --->Publicaciones de instagram estilos*/
