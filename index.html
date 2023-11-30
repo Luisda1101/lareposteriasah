@@ -12,14 +12,19 @@
     
 </head>
 <body>
-  <div class="container-fluid">
   <a href="https://api.whatsapp.com/send?phone=573016179642" target="_blank"><img src="img/whatsapp_icon.png" id="whatsapp"></a>
+  <div class="container-fluid" style="background-image: url(img/fondoslidernuevo.png);">
 
   <div class="row">
   <div class="col-md-12">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Inicio</a>
+      <form class="d-flex" role="search">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="Bootstrap" width="50" height="50">
+        </a>
+      </form>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,11 +47,6 @@
             <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" alt="Bootstrap" width="50" height="50">
-          </a>
-        </form>
       </div>
     </div>
   </nav>
@@ -54,8 +54,8 @@
   </div>
 
   <div class="row img">
-    <div class="col-10 mx-auto img">
-      <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="col-md-10 mx-auto img">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-bottom: 3rem;">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -83,7 +83,9 @@
       </div>
     </div>
   </div>
-  
+  </div>
+
+  <div class="container-fluid">
 
   <div class="row">
     <div class="col-12">
@@ -107,47 +109,44 @@
   </div>
 
   <div class="row pubsinsta">
-    <div class="col-md-4">
-      <div class="">
+    <div class="col-md-4 mx-auto">
         <iframe src="https://www.instagram.com/p/CkYciA8L8Rb/embed/" ></iframe>
-      </div>
     </div>
-    <div class="col-md-4">
-      <div class="">
+    <div class="col-md-4 mx-auto">
         <iframe src="https://www.instagram.com/p/CoU9JjsrvVN/embed/" ></iframe>
-      </div>
     </div>
-    <div class="col-md-4">
-      <div class="">
+    <div class="col-md-4 mx-auto">
         <iframe src="https://www.instagram.com/p/Cr0yVPhLL0e/embed/" ></iframe>
-      </div>
     </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12">
-        <div class="card mb-4 mt-4">
-          <div class="card-header text-center">
-            La repostería Sahagún
-          </div>
-          <div class="row card-body">
-            <div class="col-6 text-center">
-            <blockquote class="blockquote mb-0">
-              <p class="mb-0"><b>Ubicación: </b>Sahagún, Córdoba, Colombia</p>
-              <p>Barrio Nueva Granada</p>
-              <footer class="blockquote-footer">Transversal <cite title="Source Title">3A</cite></footer>
-            </blockquote>
-          </div>
-          <div class="col-6 text-center">
-            <p class="mb-0"><b>Contáctanos: </b></p>
-              <p class="mb-0"><u>Email</u>:<a href="mailto:luisdavidverso11@gmail.com" style="text-decoration: none;"> Haz click aquí</a></p>
-              <p><i class="bi bi-whatsapp"></i> Whatsapp: <i class="bi bi-arrow-down-right-circle"></i></p>
-          </div>
-          </div>
-        </div>
-      </div>
     </div>
 
 </div>
+
+<div class="container-fluid" style="background-color: rosybrown;">
+  <div class="row" style="background-color: rosybrown;">
+  <div class="card mx-auto" style="border: 0px !important; background-color: rosybrown;">
+    <div class="card-header text-center" style="background-color: rosybrown;">
+      La repostería Sahagún
+    </div>
+    <div class="row card-body">
+      <div class="col-6 text-center">
+      <blockquote class="blockquote mb-0">
+        <p class="mb-0"><b>Ubicación: </b>Sahagún, Córdoba, Colombia</p>
+        <p>Barrio Nueva Granada</p>
+        <footer class="blockquote-footer" style="color: black">Transversal <cite title="Source Title">3A</cite></footer>
+      </blockquote>
+    </div>
+    <div class="col-6 text-center">
+      <p class="mb-0"><b>Contáctanos: </b></p>
+        <p class="mb-0"><u>Email</u>:<a href="mailto:luisdavidverso11@gmail.com" style="text-decoration: none;"> Haz click aquí</a></p>
+        <p><i class="bi bi-whatsapp"></i> Whatsapp: <i class="bi bi-arrow-down-right-circle"></i></p>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="functions_index.js"></script>
 </body>
 </html>

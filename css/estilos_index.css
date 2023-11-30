@@ -1,3 +1,7 @@
+body{
+    background-color: #f9d6d9 !important;
+}
+
 /* --->Boton whatsapp estilos*/
 
 #whatsapp{
@@ -13,6 +17,7 @@
 /* --->Nav estilos*/
 nav{
     font-size: 20px;
+    background-color: transparent;
 }
 
 /* --->Imagen logo, estilos*/
@@ -27,19 +32,20 @@ nav{
 }
 
 .row.img{
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
     padding: 0;
 }
 
 
 /* --->Publicaciones de instagram estilos*/
+
 .row.pubsinsta iframe{
     border-radius: 2rem;
     width: 320px; 
     height: 640px;
-    margin-left: 1.5rem;
     padding: 0;
     border: 6px solid #CDCBCC;
     margin-top: 2rem;
+    margin-left: 2rem;
 }
