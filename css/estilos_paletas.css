@@ -5,6 +5,7 @@
     right: 0.7rem;
     background-size: auto;
     position: fixed;
+    z-index: 999;
 }
 
 .imgstortas{
