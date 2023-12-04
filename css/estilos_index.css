@@ -38,7 +38,6 @@ nav{
 
 .row.img{
     margin-top: 2rem;
-    margin-bottom: 4rem;
     padding: 0;
 }
 
@@ -68,6 +67,6 @@ nav{
     color: #E22825;
 }
 
-.row.sobre_nosotros{
-    background-image: url(img/fondo_sobrenosotros);
+#title_we{
+    font-family: 'Roboto', sans-serif !important;
 }
