@@ -1,5 +1,6 @@
 body{
-    background-color: #f9d6d9 !important;
+    background-color: #FFACC6 !important;
+    font-family: 'Mukta', sans-serif !important;
 }
 
 /* --->Boton whatsapp estilos*/
@@ -44,12 +45,29 @@ nav{
 
 /* --->Publicaciones de instagram estilos*/
 
+.row.pubsinsta{
+    text-align: center;
+    height: auto;
+    justify-content: center;
+}
+
 .row.pubsinsta iframe{
     border-radius: 2rem;
-    width: 320px; 
-    height: 640px;
-    padding: 0;
     border: 6px solid #F8A8A4;
-    margin-top: 2rem;
-    margin-left: 2rem;
+    width: 300px;
+    height: 640px;
+}
+
+.fs-1.text-uppercase.text-center{
+    font-family: 'Roboto', sans-serif !important;
+    color: #E22825;
+}
+
+.fs-3.text-uppercase.text-center{
+    font-family: 'Roboto', sans-serif !important;
+    color: #E22825;
+}
+
+.row.sobre_nosotros{
+    background-image: url(img/fondo_sobrenosotros);
 }
