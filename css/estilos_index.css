@@ -55,18 +55,33 @@ nav{
     border: 6px solid #F8A8A4;
     width: 300px;
     height: 640px;
+    width: 100%;
 }
 
-.fs-1.text-uppercase.text-center{
-    font-family: 'Roboto', sans-serif !important;
+#title_1{
+    font-family: 'Caveat', cursive;
     color: #E22825;
 }
 
-.fs-3.text-uppercase.text-center{
-    font-family: 'Roboto', sans-serif !important;
+#title_2{
+    font-family: 'Caveat', cursive;
     color: #E22825;
 }
 
 #title_we{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Caveat', cursive;
+}
+
+#text_we{
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
+    color: gray;
+}
+
+#title_designs{
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
+}
+
+#title_footer{
 }
