@@ -9,60 +9,69 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Ephesis&family=Mukta:wght@600&family=Nova+Square&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="container-fluid">
-
+    <div class="container-fluid mb-5">
         <a href="https://api.whatsapp.com/send?phone=573016179642" target="_blank"><img src="img/whatsapp_icon.png" id="whatsapp"></a>
-
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="index.html">Inicio</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Productos
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="tortas.html">Tortas</a></li>
-                              <li><a class="dropdown-item" href="cupcakes.html">Cupcakes</a></li>
-                              <li><a class="dropdown-item" href="paletas.html">Paletas</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="distribuye.html">Distribuye</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                          </li>
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="img/logo.png" alt="Bootstrap" width="50" height="50">
+                    </a>
+                  </form>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                        </a>
+                        <ul class="dropdown-menu" style="border: 0px !important; border-radius: 10px;">
+                          <li><a class="dropdown-item" href="tortas.html">Tortas</a></li>
+                          <li><a class="dropdown-item" href="cupcakes.html">Cupcakes</a></li>
+                          <li><a class="dropdown-item" href="paletas.html">Paletas</a></li>
                         </ul>
-                        <form class="d-flex" role="search">
-                          <a class="navbar-brand" href="index.html">
-                            <img src="img/logo.png" alt="Bootstrap" width="50" height="50">
-                          </a>
-                        </form>
-                      </div>
-                    </div>
-                  </nav>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="distribuye.html">Distribuye</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
             </div>
-        </div>
+          </div>
 
-        <div class="row">
-            <div class="col-12 mt-4">
-                <p class="fs-1 text-center">TORTAS</p>
-                <p>Deleitate con nuestra gran variedad de diseños y elige el que más te guste. O si deseas una decoración personalizada contáctanos.</p>
+          <div class="row">
+                <p class="fs-1 text-center" id="title_tortas">TORTAS</p>
+          </div>
+
+          <div class="row texto_inicial">
+            <div class="col-md-7">
+              <p class="text-start text-center" id="text_tortas">Deleitate con nuestra gran variedad de diseños y elige el que más te guste. 
+                O si deseas una decoración personalizada contáctanos. </p>
+              <p class="text-start text-center" id="text_tortas">¡Descubre el placer en cada bocado con las tortas de 
+                "La Repostería Sahagún"! Nuestras creaciones son la combinación perfecta de sabor y estilo. Celebra tus momentos 
+                especiales con nuestras deliciosas tortas, ¡haz que cada ocasión sea dulcemente inolvidable!</p>
             </div>
-        </div>
+            <div class="col-md-5">
+              <img src="img/tortas_logo.png" class="rounded w-100 text-center">
+            </div>
+          </div>
 
         
-        <div class="row" style="justify-content: center !important;">
+          <div class="row" style="justify-content: center !important;">
           
           <div class="col-md-3 mt-4 text-center" style="width: 300px !important;">
             <div class="card" style="width: 100%;">
@@ -121,35 +130,32 @@
           </div>
         </div>
 
-        <div class="row mt-4">
-          <p>
-            ¡Descubre el placer en cada bocado con las tortas de "La Repostería Sahagún"! Nuestras creaciones son la combinación perfecta de sabor y estilo. Celebra tus momentos especiales con nuestras deliciosas tortas, ¡haz que cada ocasión sea dulcemente inolvidable! </p>
-      </div>
+    </div>
 
-        <div class="row">
-          <div class="col-12">
-            <div class="card mb-4 mt-4">
-              <div class="card-header text-center">
-                La repostería Sahagún
-              </div>
-              <div class="row card-body">
-                <div class="col-6 text-center">
-                <blockquote class="blockquote mb-0">
-                  <p class="mb-0"><b>Ubicación: </b>Sahagún, Córdoba, Colombia</p>
-                  <p>Barrio Nueva Granada</p>
-                  <footer class="blockquote-footer">Transversal <cite title="Source Title">3A</cite></footer>
-                </blockquote>
-              </div>
-              <div class="col-6 text-center">
-                <p class="mb-0"><b>Contáctanos: </b></p>
-                  <p class="mb-0"><u>Email</u>:<a href="mailto:luisdavidverso11@gmail.com" style="text-decoration: none;"> Haz click aquí</a></p>
-                  <p><i class="bi bi-whatsapp"></i> Whatsapp: <i class="bi bi-arrow-down-right-circle"></i></p>
-              </div>
-              </div>
-            </div>
+      <div class="container-fluid" style="background-color: #ECFFFE;">
+        <div class="row-md" style="background-color: #ECFFFE;">
+        <div class="card mx-auto" style="border: 0px !important; background-color: #ECFFFE;">
+          <div class="card-header mt-4" style="background-color: #ECFFFE; border: 0px !important;">
+            <p class="fs-4 text-center text-uppercase" id="title_footer">
+              La repostería Sahagún
+            </p>
+          </div>
+          <div class="row card-body">
+            <div class="col-md-6 text-center">
+            <blockquote class="blockquote mb-0">
+              <p class="mb-0"><b>Ubicación: </b>Sahagún, Córdoba, Colombia</p>
+              <p>Barrio Nueva Granada</p>
+              <footer class="blockquote-footer" style="color: black">Transversal <cite title="Source Title">3A</cite></footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6 text-center">
+            <p class="mb-0"><b>Contáctanos: </b></p>
+              <p class="mb-0"><u>Email</u>:<a href="mailto:luisdavidverso11@gmail.com" style="text-decoration: none;"> Haz click aquí</a></p>
+              <p><i class="bi bi-whatsapp"></i> Whatsapp: <i class="bi bi-arrow-down-right-circle"></i></p>
+          </div>
           </div>
         </div>
-
-    </div>
+      </div>
+      </div>
 </body>
 </html>

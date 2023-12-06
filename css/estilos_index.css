@@ -3,6 +3,13 @@ body{
     font-family: 'Mukta', sans-serif !important;
 }
 
+.container-fluid.principal{
+    background-image: url(../img/fondoslidernuevo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* --->Boton whatsapp estilos*/
 
 #whatsapp{
@@ -19,10 +26,6 @@ body{
 nav{
     font-size: 20px;
     background-color: transparent;
-}
-
-#navbarSupportedContent{
-    
 }
 
 /* --->Imagen logo, estilos*/
@@ -55,7 +58,7 @@ nav{
     border: 6px solid #F8A8A4;
     width: 300px;
     height: 640px;
-    width: 100%;
+    max-width: 100%;
 }
 
 #title_1{
@@ -84,4 +87,51 @@ nav{
 }
 
 #title_footer{
+    font-family: 'Caveat', cursive;
 }
+
+.row.sobre_nosotros{
+    background-image: url(../img/fondo_sobrenosotros.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row.subscribe_news{
+    background-image: url(../img/fondo_news.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenido_news{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.contenido_news input{
+    width: 25rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 0px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 1rem;
+    max-width: 100%;
+}
+
+.contenido_news button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 0px;
+    outline: none;
+    background-color: red;
+    color: white;
+}
+
+.contenido_news button:hover{
+    background-color: #E61313;
+}
+

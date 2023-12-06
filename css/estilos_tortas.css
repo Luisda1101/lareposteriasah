@@ -1,3 +1,8 @@
+body{
+    background-color: #FFACC6 !important;
+    font-family: 'Mukta', sans-serif !important;
+}
+
 #whatsapp{
     width: 3rem;
     height: 3rem;
@@ -6,6 +11,23 @@
     background-size: auto;
     position: fixed;
     z-index: 999;
+}
+
+nav{
+    font-size: 20px;
+    background-color: transparent;
+}
+
+#title_tortas{
+    font-family: 'Caveat', cursive;
+}
+
+#text_tortas{
+    margin: 0;
+    margin-top: 3rem;
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
+    color: gray;
 }
 
 .imgstortas{
@@ -19,3 +41,10 @@
     box-shadow: 3px 3px 3px 3px #CDCBCC;
 }
 
+.card{
+    border: 0px !important;
+}
+
+#title_footer{
+    font-family: 'Caveat', cursive;
+}

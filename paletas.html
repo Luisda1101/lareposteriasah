@@ -9,7 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Ephesis&family=Mukta:wght@600&family=Nova+Square&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container-fluid">
@@ -17,49 +19,56 @@
 
         <div class="row">
             <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="tortas.html">Tortas</a></li>
-                        <li><a class="dropdown-item" href="cupcakes.html">Cupcakes</a></li>
-                        <li><a class="dropdown-item" href="paletas.html">Paletas</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="distribuye.html">Distribuye</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                  </ul>
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
                   <form class="d-flex" role="search">
                     <a class="navbar-brand" href="index.html">
                       <img src="img/logo.png" alt="Bootstrap" width="50" height="50">
                     </a>
                   </form>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                        </a>
+                        <ul class="dropdown-menu" style="border: 0px !important; border-radius: 10px;">
+                          <li><a class="dropdown-item" href="tortas.html">Tortas</a></li>
+                          <li><a class="dropdown-item" href="cupcakes.html">Cupcakes</a></li>
+                          <li><a class="dropdown-item" href="paletas.html">Paletas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="distribuye.html">Distribuye</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </nav>
+              </nav>
             </div>
-            </div>
+        </div>
+
         <div class="row">
-            <div class="col-12  mt-4">
-                <p class="fs-1 text-center">PALETAS</p>
-                <P>¡Para los niños y niñas que van a nuestras fiestas siempre debe haber algo para ellos!, 
-                    por esta misma razón, laRepostería Sahagún tiene paletas infantiles para compartir en 
-                    esos eventos especiales, de distintos colores y diseños,elige el que más te guste o si 
-                    deseas un diseño personalizado contáctanos.</P>
-            </div>
+          <p class="fs-1 text-center" id="title_paletas">PALETAS</p>
+        </div> 
+
+        <div class="row texto_inicial">
+          <div class="col-md-7">
+            <p class="text-start text-center" id="text_paletas">Los cupcakes nunca pueden faltar en un evento especial, elige el diseño que prefieras, ya sea 
+              solo en crema, con aditivos o fondant. Hay mucha variedad en decoraciones, o si por el contrario necesitas 
+              una decoracion personalizada contactanos. </p>
+            <p class="text-start text-center" id="text_paletas">¡Dale un toque dulce a tu día con los cupcakes de "La Repostería Sahagún"! 
+              Pequeños, deliciosos y llenos de alegría en cada mordisco. ¡Hazte feliz con nuestros cupcakes irresistibles!</p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/cupcakes_logo.png" class="rounded text-center" id="img_cup">
+          </div>
         </div>
         
         <div class="row justify-content-center text-center">
