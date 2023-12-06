@@ -1,3 +1,8 @@
+body{
+    background-color: #FFC4C4 !important;
+    font-family: 'Mukta', sans-serif !important;
+}
+
 #whatsapp{
     width: 3rem;
     height: 3rem;
@@ -8,8 +13,18 @@
     z-index: 999;
 }
 
-.fs-1.text-center{
-    padding: 3rem;
+nav{
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.fs-1.contact{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.text-start.contact{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-size: 20px;
 }
 
 #map {
