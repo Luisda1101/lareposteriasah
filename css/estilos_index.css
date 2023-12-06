@@ -1,5 +1,5 @@
 body{
-    background-color: #FFACC6 !important;
+    background-color: #FFC4C4 !important;
     font-family: 'Mukta', sans-serif !important;
 }
 
@@ -59,6 +59,13 @@ nav{
     width: 300px;
     height: 640px;
     max-width: 100%;
+}
+
+#row_iframes{
+    background-image: url(../img/fondo_iframes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #title_1{
