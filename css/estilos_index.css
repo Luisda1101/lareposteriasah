@@ -55,17 +55,10 @@ nav{
 
 .row.pubsinsta iframe{
     border-radius: 2rem;
-    border: 6px solid #F8A8A4;
+    border: 0px solid white;
     width: 300px;
     height: 640px;
     max-width: 100%;
-}
-
-#row_iframes{
-    background-image: url(../img/fondo_iframes.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #title_1{
