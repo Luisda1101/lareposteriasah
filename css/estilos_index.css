@@ -135,3 +135,11 @@ nav{
     background-color: #E61313;
 }
 
+.nav-item{
+    align-items: end;
+    display: flex;
+    justify-content: end;
+
+}
+
+
