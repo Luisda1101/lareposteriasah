@@ -18,14 +18,10 @@ nav{
     background-color: transparent;
 }
 
-.fs-1.contact{
+#font_Noto{
     font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
-.text-start.contact{
-    font-family: 'Noto Sans Hebrew', sans-serif;
-    font-size: 20px;
-}
 
 #map {
     height: 400px;
